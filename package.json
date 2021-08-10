@@ -1,0 +1,18 @@
+{
+  "name": "autonomieJS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Patureau Bastien",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.2.5"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "fabric": "^4.5.1",
+    "file-saver": "^2.0.5"
+  }
+}

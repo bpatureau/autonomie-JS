@@ -1,0 +1,4 @@
+body{width:100vw;height:100vh}.canvas-box{width:100vw;height:80vh;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}div.canvas-container{width:90vh;height:90vh;border:1px solid black}.pixelCanvas{width:90vh;height:90vh;border:1px solid black}.toolkit{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row}.aside{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row}div{margin-left:10px}button{margin-left:10px}.smallPixelCanvas{display:none}
+
+
+/*# sourceMappingURL=/style.min.523dbd32.css.map */

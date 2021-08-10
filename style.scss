@@ -1,0 +1,39 @@
+body{
+  width: 100vw;
+  height: 100vh;
+}
+.canvas-box{
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.canvas-container{
+  width: 90vh;
+  height: 90vh;
+  border: 1px solid black;
+}
+.pixelCanvas{
+  width: 90vh;
+  height: 90vh;
+  border: 1px solid black;
+}
+.toolkit{
+  display: flex;
+  flex-direction: row;
+}
+.aside{
+  display: flex;
+  flex-direction: row;
+
+}
+div{
+  margin-left: 10px;
+}
+button{
+  margin-left: 10px;
+}
+.smallPixelCanvas{
+  display: none;
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv= "X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.min.css">
+    <title>Pixel Art</title>
+  </head>
+  <body>
+    <div class="canvas-box">  
+        <canvas id="pixelCanvas" class="pixelCanvas"></canvas>
+      </div>
+      <div class="canvas-small">  
+        <canvas id="smallPixelCanvas" class="smallPixelCanvas"></canvas>
+      </div>
+      <div class="aside">
+    <div class="toolkit">
+      <input type="radio" id="crayon" name="tool" value="crayon" checked>
+      <label for="crayon">crayon</label>
+      <input type="radio" id="gomme" name="tool" value="gomme">
+      <label for="gomme">gomme</label>
+
+    </div>
+    <label for="color"></label>
+    <select class="color" name="color" id="color">
+      <option value="black">black</option>
+      <option value="yellow">yellow</option>
+      <option value="blue">blue</option>
+      <option value="green">green</option>
+      <option value="red">red</option>
+    </select>
+    <div class="buttons">
+      <button class="save">save</button>
+      <button class="load">load</button>
+      <button class="reset">reset</button>
+      <button class="disable">disable grid</button>
+      <button class="download">download as png</button>
+    </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/4.5.0/fabric.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
