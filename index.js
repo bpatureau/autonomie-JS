@@ -134,7 +134,7 @@ if(e.target.classList.contains("download")){
     smallPixelCanvas.add(smallRect)
   });
   
-  var canvas = document.getElementById("smallPixelCanvas");
+  var canvas = document.getElementById("pixelCanvas");
   canvas.toBlob(function(blob) {
       saveAs(blob, "image.png");
 });
